@@ -1,8 +1,24 @@
 aid: spext-labs-spext
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spext-labs-spext.png
 name: Spext Labs, Spext
-description: Spext Labs, Spext is a company surfaced as a portfolio company of 500-global and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Spext (Spext Labs) is an AI-powered audio and video editing platform that lets users edit
+  recordings by trimming an auto-generated transcript rather than a waveform — a text-first "recording
+  management system" for podcasts, interviews and other spoken-word media. Backed by 500 Global, the
+  company operates from a Framer-hosted marketing site (spext.co) and a web application (app.spext.co).
+  As of this enrichment pass Spext exposes no public developer surface — no documented API, developer
+  portal, SDKs, OpenAPI, or well-known discovery endpoints were found; the profile is retained as a
+  network company record.
 url: https://raw.githubusercontent.com/api-evangelist/spext-labs-spext/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Audio
+- Video
+- Transcription
+- Media
+- Editing
+- Artificial Intelligence
+- Podcasts
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +45,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/spext-labs-spext-domain-security.yml
 - type: Website
   url: https://spext.co
+- type: Login
+  url: https://app.spext.co
+- type: GitHubOrganization
+  url: https://github.com/spext
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
