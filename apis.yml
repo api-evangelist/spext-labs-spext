@@ -22,14 +22,14 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spext-labs-spext.png
-name: Spext Labs, Spext
+name: Spext Labs
 description: Spext (Spext Labs) is an AI-powered audio and video editing platform that lets users edit
   recordings by trimming an auto-generated transcript rather than a waveform — a text-first "recording
-  management system" for podcasts, interviews and other spoken-word media. Backed by 500 Global, the
-  company operates from a Framer-hosted marketing site (spext.co) and a web application (app.spext.co).
-  As of this enrichment pass Spext exposes no public developer surface — no documented API, developer
-  portal, SDKs, OpenAPI, or well-known discovery endpoints were found; the profile is retained as a
-  network company record.
+  management system" for podcasts, interviews and other spoken-word media. Backed by 500 Global, the company
+  operates from a Framer-hosted marketing site (spext.co) and a web application (app.spext.co). As of
+  this enrichment pass Spext exposes no public developer surface — no documented API, developer portal,
+  SDKs, OpenAPI, or well-known discovery endpoints were found; the profile is retained as a network company
+  record.
 url: https://raw.githubusercontent.com/api-evangelist/spext-labs-spext/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -39,7 +39,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-09-15'
 tags:
 - Company
 - Audio
@@ -69,3 +69,5 @@ x-enrichment:
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-aliases:
+- Spext
